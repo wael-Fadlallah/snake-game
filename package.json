@@ -1,0 +1,17 @@
+{
+  "name": "project",
+  "devDependencies": {
+    "babel-core": "^6.0",
+    "babel-loader": "^7.0",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*",
+    "webpack": "^2.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w"
+  },
+  "dependencies": {
+    "browser-sync": "^2.27.4"
+  }
+}

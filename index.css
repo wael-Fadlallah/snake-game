@@ -1,0 +1,50 @@
+html, body {
+    margin: 10;
+    padding: 10;
+}
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:#009688;
+    color:white;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    border: solid 2px black;
+    background-color:white;
+}
+
+.square {
+    width: 40px;
+    height:40px;
+}
+
+.snake {
+    background-color: green;
+}
+.tail-left,
+.head-right{
+    border-radius:0% 50% 50% 0%;
+}
+.tail-right,
+.head-left{
+    border-radius:50% 0% 0% 50%;
+}
+.tail-down,
+.head-up{
+    border-radius:50% 50% 0% 0%;
+}
+.tail-up,
+.head-down{
+    border-radius: 0% 0% 50% 50%;
+}
+.apple {
+    /* background-color: blue; */
+    font-size: 25px;
+    text-align: center;
+}
